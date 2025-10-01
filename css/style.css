@@ -3,3 +3,30 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.projects {
+  background-color: #0020F4;
+  position: relative;
+}
+
+.projects h2 {
+  color: white;
+  padding-left: 240px;
+  padding-top: 70px;
+}
+
+.first_article {
+  display: inline-block;
+  position: relative;
+  height: 420px;
+  border-radius: 26px;
+}
+
+.first_article .first_image {
+  position: absolute;
+  height: 420px;
+  width: 463px;
+  margin-left: 260px;
+  margin-top: 90px;
+}
+
