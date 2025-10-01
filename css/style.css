@@ -54,7 +54,7 @@ nav .kontaqti {
   gap: 25px;
 }
 .home-container {
-  margin-top: 115px;
+  padding-top: 115px;
 }
 .slider {
   display: flex;
