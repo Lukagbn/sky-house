@@ -7,6 +7,53 @@
   background-color: #0020f4;
   height: 308px;
 }
+header {
+  padding-top: 45px;
+  align-items: center;
+  background-color: #0a22f4;
+}
+header nav ul {
+  display: inline-block;
+  list-style: none;
+  align-items: end;
+}
+header li {
+  display: inline-block;
+}
+header a {
+  text-decoration: none;
+  color: antiquewhite;
+  padding-left: 0px;
+  padding-right: 20px;
+}
+header .container {
+  width: 1460px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+.logo {
+  height: 55px;
+  width: auto;
+}
+nav .kontaqti {
+  background: white;
+  color: black;
+  padding: 18px 43px;
+  border-radius: 30px;
+  font-weight: 700;
+}
+.blue {
+  background-color: #0a22f4;
+}
+.white {
+  background-color: #ffffff;
+}
+.lightblue {
+  background-color: #425bff;
+}
 .container {
   max-width: 1460px;
   width: 100%;
@@ -61,4 +108,67 @@
 .other-projects-container {
   text-align: right;
   align-items: center;
+}
+.jumbotron {
+  display: grid;
+  grid-template-columns: minmax(400px, 707px) minmax(600px, 948px);
+  align-items: center;
+  gap: 25px;
+  margin-left: auto;
+  padding-bottom: 61px;
+}
+.home-container {
+  padding-top: 115px;
+}
+.img {
+  width: 100%;
+  border-radius: 10px;
+}
+.slider {
+  margin-top: 41px;
+  display: flex;
+  justify-content: space-between;
+}
+.circles div {
+  margin-right: 15px;
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+.arrows,
+.arrows a {
+  display: inline-block;
+  text-decoration: none;
+}
+.content-container {
+  margin-top: 398px;
+}
+.text-container {
+  max-width: 463px;
+  margin-left: 138px;
+  width: 100%;
+  vertical-align: top;
+}
+.text-container,
+.text-container h2,
+.text-container p {
+  display: inline-block;
+}
+.img-container {
+  margin-top: 138px;
+  display: inline-block;
+}
+section div h2 {
+  padding-bottom: 60px;
+}
+.content-container img {
+  display: inline-block;
+  max-width: 707px;
+  width: 100%;
+  border: 10px solid #0a22f4;
+  border-top: 0px;
+  border-right: 0px;
+  border-radius: 20px;
+  object-fit: cover;
 }
