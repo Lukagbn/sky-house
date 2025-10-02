@@ -53,6 +53,7 @@ nav .kontaqti {
 .container {
   max-width: 1460px;
   width: 100%;
+  margin: auto; /* an yvela ertad iwyeba an marto suratebi marjvniv */
 }
 .jumbotron {
   display: grid;
@@ -62,14 +63,10 @@ nav .kontaqti {
   margin-left: auto;
   padding-bottom: 61px;
 }
-section.home-container {
+.home-container {
   padding-top: 115px;
 }
-.left-img {
-  width: 100%;
-  border-radius: 10px;
-}
-.right-img {
+.img {
   width: 100%;
   border-radius: 10px;
 }
@@ -88,7 +85,5 @@ section.home-container {
 .arrows,
 .arrows a {
   display: inline-block;
-}
-.arrows a {
   text-decoration: none;
 }
