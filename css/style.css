@@ -87,3 +87,34 @@ nav .kontaqti {
   display: inline-block;
   text-decoration: none;
 }
+.content-container {
+  margin-top: 398px;
+}
+.text-container {
+  max-width: 463px;
+  margin-left: 138px;
+  width: 100%;
+  vertical-align: top;
+}
+.text-container,
+.text-container h2,
+.text-container p {
+  display: inline-block;
+}
+.img-container {
+  margin-top: 138px;
+  display: inline-block;
+}
+section div h2 {
+  padding-bottom: 60px;
+}
+.content-container img {
+  display: inline-block;
+  max-width: 707px;
+  width: 100%;
+  border: 10px solid #0a22f4;
+  border-top: 0px;
+  border-right: 0px;
+  border-radius: 20px;
+  object-fit: cover;
+}
