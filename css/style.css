@@ -3,16 +3,6 @@
   display: flex;
   justify-content: space-between;
 }
-.text-container {
-  max-width: 463px;
-  width: 100%;
-  vertical-align: top;
-}
-.text-container a {
-  text-decoration: none;
-  color: #0a22f4;
-  font-weight: 500;
-}
 .projects {
   background-color: #0020f4;
   height: 308px;
@@ -157,16 +147,20 @@ nav .kontaqti {
 .content-container {
   margin-top: 398px;
 }
-.text-container {
-  max-width: 463px;
-  margin-left: 138px;
-  width: 100%;
-  vertical-align: top;
-}
 .text-container,
 .text-container h2,
 .text-container p {
   display: inline-block;
+}
+.text-container {
+  max-width: 463px;
+  width: 100%;
+  vertical-align: top;
+}
+.text-container a {
+  text-decoration: none;
+  color: #0a22f4;
+  font-weight: 500;
 }
 .img-container {
   margin-top: 138px;
