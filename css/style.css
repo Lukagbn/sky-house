@@ -6,6 +6,7 @@
 .projects {
   background-color: #0020f4;
   height: 308px;
+  margin-top: 394px;
 }
 header {
   padding-top: 45px;
@@ -100,6 +101,8 @@ nav .kontaqti {
 .other-projects {
   font-size: 18px;
   font-weight: 700;
+  text-decoration: none;
+  color: black;
 }
 .vertical-line,
 .other-projects {
