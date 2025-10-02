@@ -53,7 +53,7 @@ nav .kontaqti {
 .container {
   max-width: 1460px;
   width: 100%;
-  margin: auto; /* an yvela ertad iwyeba an marto suratebi marjvniv */
+  margin: auto;
 }
 .jumbotron {
   display: grid;
