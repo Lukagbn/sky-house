@@ -3,30 +3,62 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 .projects {
-  background-color: #0020F4;
-  position: relative;
+  background-color: #0020f4;
+  height: 308px;
 }
-
+.container {
+  max-width: 1460px;
+  width: 100%;
+  margin: auto;
+}
 .projects h2 {
   color: white;
-  padding-left: 240px;
   padding-top: 70px;
 }
-
-.first_article {
+.card {
   display: inline-block;
   position: relative;
   height: 420px;
   border-radius: 26px;
 }
-
-.first_article .first_image {
-  position: absolute;
-  height: 420px;
-  width: 463px;
-  margin-left: 260px;
-  margin-top: 90px;
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+  margin-bottom: 70px;
 }
-
+.first_image {
+  position: relative;
+  max-width: 463px;
+  width: 100%;
+  border-radius: 20px;
+}
+.card p {
+  position: absolute;
+  bottom: 40px;
+  left: 10px;
+  right: 10px;
+  background-color: #ffffff;
+  opacity: 0.95;
+  padding: 20px;
+  border-radius: 10px;
+}
+.vertical-line {
+  width: 2px;
+  height: 19px;
+  background-color: gray;
+  margin-right: 20px;
+}
+.other-projects {
+  font-size: 18px;
+  font-weight: 700;
+}
+.vertical-line,
+.other-projects {
+  display: inline-block;
+}
+.other-projects-container {
+  text-align: right;
+  align-items: center;
+}
